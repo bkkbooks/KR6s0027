@@ -1,0 +1,45 @@
+canonical_identifier: bkk:krp/KR6s0027/v1
+canonical_location: https://kanripo.org/bkk/KR6s0027/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 大乘二十二問本
+  identifiers:
+    alt_id:
+    - T85n2818
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T85/T85n2818.xml
+    old_id: T85n2818
+  edition:
+    short: bkk
+editions:
+- short: 大
+  label: 大
+  source_xml_id: wit.orig
+- short: 甲
+  label: 甲
+  source_xml_id: wit1
+- short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6s0027_000.yaml, hash: 'sha256:bcd66005d2facf2253c2b9978d02b818d0eaa6baf4d19c7608ef197981910474'}
+  - {seq: 1, filename: KR6s0027_001.yaml, hash: 'sha256:5653ad4d58953cbc60e98d4d116ea52f0819c1c8fda448b60fbd4e913297c8ed'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6s0027_001.markers.yaml, hash: 'sha256:15bc1ca302aa53553f55376b3d0cbc8871aa934b530e0959135c8e451f2171fa'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6s0027_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 12309
+  label: 大乘二十二問本
+  type: juan
+  level: 1
+hash: sha256:297a0705de903e96c91b1b571dd83ec8371c59f03a010f4e1cea7f8dd6e69c27
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
