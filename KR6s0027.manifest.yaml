@@ -25,9 +25,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6s0027_000.yaml, hash: 'sha256:bcd66005d2facf2253c2b9978d02b818d0eaa6baf4d19c7608ef197981910474'}
-  - {seq: 1, filename: KR6s0027_001.yaml, hash: 'sha256:5653ad4d58953cbc60e98d4d116ea52f0819c1c8fda448b60fbd4e913297c8ed'}
+  - {seq: 1, filename: KR6s0027_001.yaml, hash: 'sha256:7a7d14b8934a6c23e7b281ff6a55aa7a397eb49de9ad7c6ba1fb48734d2782ee'}
   markers:
-  - {seq: 1, role: markers, filename: assets/KR6s0027_001.markers.yaml, hash: 'sha256:15bc1ca302aa53553f55376b3d0cbc8871aa934b530e0959135c8e451f2171fa'}
+  - {seq: 0, role: markers, filename: assets/KR6s0027_000.markers.yaml, hash: 'sha256:ff7de6348f2bdc849b19dd541860ba5454ab176a9da8c82b4f1330c786c7c16b'}
+  - {seq: 1, role: markers, filename: assets/KR6s0027_001.markers.yaml, hash: 'sha256:d99f01d0556f5a648a6f243321f7ffa6ad62b120aac5f6e2cc3bc8dd37098a3a'}
 table_of_contents:
 - ref:
     seq: 1
@@ -39,7 +40,4 @@ table_of_contents:
   label: 大乘二十二問本
   type: juan
   level: 1
-hash: sha256:297a0705de903e96c91b1b571dd83ec8371c59f03a010f4e1cea7f8dd6e69c27
-mappings:
-- canonical_identifier: bkk:mapping/variant-fold-v1
-  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
+hash: sha256:3c2181e35c3c3efa433d2f2551b0abf1c19d95f88f808880ece1f447c45b732e
